@@ -1,5 +1,6 @@
-#import libraries to run linear regression of data inputs
+#Using Linear Regression, predict how much the flight will be delayed, based on data inputs.
 
+#import libraries to run linear regression of data inputs
 import numpy as np
 import sklearn as sk
 from sklearn import datasets
