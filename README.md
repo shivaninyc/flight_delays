@@ -1,2 +1,2 @@
 # flight_delays
-Modeling Flights Delay Based and Cancellation On Flight Information And Weather Data
+Modeling Flights Delay and Cancellation Based On Flight Information And Weather Data
