@@ -1,18 +1,13 @@
 #Using Linear Regression, predict how much the flight will be delayed, based on data inputs.
 
 #import libraries to run linear regression of data inputs
-import numpy as np
 import sklearn as sk
-from sklearn import datasets
-import pandas as pd
 import pymysql  
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn import linear_model
 from sklearn.preprocessing import PolynomialFeatures
 clf = linear_model.LinearRegression()
-from sklearn.ensemble import RandomForestClassifier
-rf = RandomForestClassifier(n_estimators=100, oob_score=True, random_state=123456)
 
 poly = PolynomialFeatures(degree=1)
 

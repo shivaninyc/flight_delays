@@ -1,24 +1,14 @@
 #Using Naive Bayes,predict if the flight is going to be delayed (more than 15 mins) or not, based on data inputs.
 
 #import libraries to run naive bayes model on data inputs
-import numpy as np
 import sklearn as sk
 from sklearn import datasets
 import pandas as pd
 import pymysql  
-import matplotlib.pyplot as plt
-from sklearn.metrics import mean_squared_error, r2_score
-from sklearn import linear_model
-from sklearn.preprocessing import PolynomialFeatures
-clf = linear_model.LinearRegression()
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
 from sklearn.model_selection import train_test_split
-
 from sklearn.naive_bayes import GaussianNB
-
-from sklearn.ensemble import RandomForestClassifier
-rf = RandomForestClassifier(n_estimators=100, oob_score=True, random_state=123456)
 
 #connect to mysql database and retrieve cleaned data set (naivebayes1) for running model
 conn = pymysql.connect(host='localhost',  
