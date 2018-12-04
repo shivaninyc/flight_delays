@@ -41,9 +41,9 @@ As per a study done by researchers in 2010 at University of California, Berkeley
 
 ## Confusion Matrices and Graphs
 ### Goal 1 
-Confusion Matrix - Naive Bayes Test Results
+#### Confusion Matrix - Naive Bayes Test Results
 <img src="naivebayes_delay.png">
-Confusion Matrix - Random Forest Test Results
+#### Confusion Matrix - Random Forest Test Results
 <img src="randomforest_delay.png">
 
 ### Goal 2
