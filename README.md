@@ -52,6 +52,11 @@ As per a study done by researchers in 2010 at University of California, Berkeley
 <img src="linreg_delay.png">
 
 ### Goal 3
+#### Confusion Matrix - Naive Bayes Test Results
+<img src="naivebayes_cancel.png">
+
+#### Confusion Matrix - Random Forest Test Results
+<img src="randomforest_cancel.png">
 
 ## Conclusion
 ### Results for Goal 1 
