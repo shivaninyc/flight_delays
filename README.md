@@ -43,5 +43,17 @@ As per a study done by researchers in 2010 at University of California, Berkeley
 
 ## Conclusion
 ### Results for Goal 1 
+Based on flight information (flight, airline, time, origin, destination etc.) and weather features (temp, humidity, rain, precipitation, snow, snow depth, wind speed etc.), I build a model which will predict if the flight is going to be delayed (more than 15 mins) or not. For this I used naive bayes and random forest. 
+The results are shown in the table below:
+
+| Naive Bayes              | Random Forest            | 
+| ------------------------ |:------------------------:| 
+| Training Accuracy : 70.1 | Training Accuracy : 76.8 |
+| Test Accuracy : 71.4     | Test Accuracy : 76.3     |  
+| Test Recall : 80.38      | Test Recall : 73.5       |
+| Test Precision : 53.1    | Test Precision :79.3     |
+
+Since my test accuracy, recall, and precision for random forest was significantly higher than 50%, my algorithm fared pretty well. Naive Bayes was used as a benchmark to compare omy random forest to.
+
 ### Results for Goal 2
 ### Results for Goal 3
