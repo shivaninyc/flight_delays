@@ -28,3 +28,9 @@ As per a study done by researchers in 2010 at University of California, Berkeley
 ├── naivebayes_cancel.py	 [Goal 3 - modeled with naive bayes python script]
    
 ```
+## Steps I took
+
+## Confusion Matrices and Graphs
+
+## Conclusion
+
