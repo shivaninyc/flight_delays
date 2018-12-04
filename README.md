@@ -78,3 +78,14 @@ Mean Squared Error: 4466.48
 Multiple Linear Regression was not recommended by papers, but I tried it anyway. There is no linear or polynomial relationship between the attributes I selected and the length of the flight delay. Also, it was hard to take into account the delay length of the previous flight, in my multiple linear regression model. This is an important factor to consider. Research papers point out that a neural network would be a better model for this and it would be able to weigh in the delay length of the previous flight.
 
 ### Results for Goal 3
+Finally, I modeled and predicted whether or not a flight will be cancelled due to weather.
+For this I used naive bayes and random forest. The results are shown in the table below:
+
+| Naive Bayes              | Random Forest            | 
+| ------------------------ |:------------------------:| 
+| Training Accuracy : 71.9 | Training Accuracy : 77.4 |
+| Test Accuracy : 72.6     | Test Accuracy : 78.2     |  
+| Test Recall : 83.3       | Test Recall : 82.7       |
+| Test Precision : 55.2    | Test Precision : 69.2    |
+
+Since my test accuracy, recall, and precision for random forest were significantly higher than 50%, my algorithm fared pretty well. Naive Bayes was used as a benchmark to compare my random forest to.
