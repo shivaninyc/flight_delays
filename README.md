@@ -11,4 +11,6 @@ As per a study done by researchers in 2010 at University of California, Berkeley
 * Goal 2: I will also run a regression model to predict by how much the flight will be delayed.
 * Goal 3: Finally, I will model and predict whether or not a flight will be cancelled due to weather.
 
-
+## Input Data Sets
+* The US Bureau of Transport Statistics provides departure and arrival statistics (scheduled departure time, actual departure time, scheduled elapsed time, departure delay, wheels-off time and taxi-out time) by airport and airline; airborne time, cancellation and diversion by airport and airline with date-time and flight tagging are also provided.
+* The weather data is taken on daily average as well as hourly basis from the nearest possible area from the airport from Local Climatological Data from NOAA. The feature set included temperature, precipitation, snow attribute, snow depth, etc.)
