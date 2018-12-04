@@ -29,6 +29,15 @@ As per a study done by researchers in 2010 at University of California, Berkeley
    
 ```
 ## Steps I took
+* In preparing for this study, a literature search was completed.
+* Decided project scope: Focusing on flight delays in the 3 airports from Greater New York area (JFK, NWK, LGA) for the month of Jan to March which results in around ~60k instances. Used Central Park weather data. Joined data on date-time features.
+* Removed non-contextual and derived variables - zeroed in on 10 features for my modeling purpose. The list of attributes I used are: Precipitation, Temperature Min, Snow, Wind, Schedule_Departure, Day of week, Flight Distance, Flight Number, Air Time, and Weather Delay
+* Handled missing features in various columns by replacing them with averages or medians, or dropping them ( ~ 1% of total instances) when the replacing strategy did not make sense.
+* Used MySQL to clean and store data set. 
+* Randomly split our data (~60k instances) in training and testing set. 67% was given to training and 33% for testing to evaluate the models.
+* Had to ‘down-sample’ data in order to achieve better precision and recall. Thus, my ‘down- sampled’ data set was 50% non cancellations/non delays and 50% cancellations/delays.
+* Ran Naive Bayes and Random Forest models for Goals 1 and 3. 
+* Ran Multiple Linear Regression for Goal 2.
 
 ## Confusion Matrices and Graphs
 
