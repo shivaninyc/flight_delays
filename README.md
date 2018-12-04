@@ -51,9 +51,9 @@ The results are shown in the table below:
 | Training Accuracy : 70.1 | Training Accuracy : 76.8 |
 | Test Accuracy : 71.4     | Test Accuracy : 76.3     |  
 | Test Recall : 80.38      | Test Recall : 73.5       |
-| Test Precision : 53.1    | Test Precision :79.3     |
+| Test Precision : 53.1    | Test Precision : 79.3    |
 
-Since my test accuracy, recall, and precision for random forest was significantly higher than 50%, my algorithm fared pretty well. Naive Bayes was used as a benchmark to compare omy random forest to.
+Since my test accuracy, recall, and precision for random forest were significantly higher than 50%, my algorithm fared pretty well. Naive Bayes was used as a benchmark to compare my random forest to.
 
 ### Results for Goal 2
 ### Results for Goal 3
