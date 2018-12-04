@@ -52,7 +52,7 @@ As per a study done by researchers in 2010 at University of California, Berkeley
 
 ## Conclusion
 ### Results for Goal 1 
-Based on flight information (flight, airline, time, origin, destination etc.) and weather features (temp, humidity, rain, precipitation, snow, snow depth, wind speed etc.), I build a model which will predict if the flight is going to be delayed (more than 15 mins) or not. For this I used naive bayes and random forest. 
+Based on flight information (flight, airline, time, origin, destination etc.) and weather features (temp, humidity, rain, precipitation, snow, snow depth, wind speed etc.), I built a model which will predict if the flight is going to be delayed (more than 15 mins) or not. For this I used naive bayes and random forest. 
 The results are shown in the table below:
 
 | Naive Bayes              | Random Forest            | 
@@ -65,4 +65,12 @@ The results are shown in the table below:
 Since my test accuracy, recall, and precision for random forest were significantly higher than 50%, my algorithm fared pretty well. Naive Bayes was used as a benchmark to compare my random forest to.
 
 ### Results for Goal 2
+I ran a regression model to predict by how much the flight will be delayed.
+For this I used a multiple linear regression model. However, the results were not statistically significant:
+
+R^2: Too low to consider
+Mean Squared Error: 4466.48
+
+Multiple Linear Regression was not recommended by papers, but I tried it anyway. There is no linear or polynomial relationship between the attributes I selected and the length of the flight delay. Also, it was hard to take into account the delay length of the previous flight, in my multiple linear regression model. This is an important factor to consider. Research papers point out that a neural network would be a better model for this and it would be able to weigh in the delay length of the previous flight.
+
 ### Results for Goal 3
