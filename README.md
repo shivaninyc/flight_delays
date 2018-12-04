@@ -43,3 +43,5 @@ As per a study done by researchers in 2010 at University of California, Berkeley
 
 ## Conclusion
 ### Results for Goal 1 
+### Results for Goal 2
+### Results for Goal 3
