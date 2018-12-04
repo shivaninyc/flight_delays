@@ -48,6 +48,9 @@ As per a study done by researchers in 2010 at University of California, Berkeley
 <img src="randomforest_delay.png">
 
 ### Goal 2
+#### Multiple Linear Regression Plot (not statistically significant)
+<img src="linreg_delay.png">
+
 ### Goal 3
 
 ## Conclusion
@@ -69,6 +72,7 @@ I ran a regression model to predict by how much the flight will be delayed.
 For this I used a multiple linear regression model. However, the results were not statistically significant:
 
 R^2: Too low to consider
+
 Mean Squared Error: 4466.48
 
 Multiple Linear Regression was not recommended by papers, but I tried it anyway. There is no linear or polynomial relationship between the attributes I selected and the length of the flight delay. Also, it was hard to take into account the delay length of the previous flight, in my multiple linear regression model. This is an important factor to consider. Research papers point out that a neural network would be a better model for this and it would be able to weigh in the delay length of the previous flight.
