@@ -40,6 +40,9 @@ As per a study done by researchers in 2010 at University of California, Berkeley
 * Ran Multiple Linear Regression model for Goal 2.
 
 ## Confusion Matrices and Graphs
+### Goal 1 
+### Goal 2
+### Goal 3
 
 ## Conclusion
 ### Results for Goal 1 
